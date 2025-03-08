@@ -1,0 +1,125 @@
+.logo-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.logo {
+    display: inline-block;
+    max-width: 3in;
+    height: auto;
+}
+
+.call-top {
+    background-color: #0d5988;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    margin-top: 17px;
+}
+
+.image-text-row {
+    display: flex;
+    align-items: center;
+    width: 90%;       /* Or whatever overall width you prefer */
+    margin: 0 auto;     /* THIS is what centers the row */
+    margin-top: -50px;
+    padding: 40px 0;
+    gap: 5px;        /* Use gap for spacing */
+}
+
+.image-container {
+    flex: 24;        /* Proportional width */
+}
+
+.row-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    flex: 76;        /* Proportional width */
+    font-size: 3.9vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #0d5988;
+}
+
+.count-plus {
+    font-weight: 700;
+}
+
+.header-hero {
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #0d5988;
+    margin-top: -60px;
+}
+
+.subheader-hero {
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #0d5988;
+    margin-top: 30px;
+}
+
+.schedule {
+    background-color: #84c124;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    margin-top: 35px;
+}
+
+.hero-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+    margin-top: 410px;
+}
