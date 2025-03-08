@@ -33,40 +33,6 @@
     margin-top: 17px;
 }
 
-.image-text-row {
-    display: flex;
-    align-items: center;
-    width: 90%;       /* Or whatever overall width you prefer */
-    margin: 0 auto;     /* THIS is what centers the row */
-    margin-top: -50px;
-    padding: 40px 0;
-    gap: 5px;        /* Use gap for spacing */
-}
-
-.image-container {
-    flex: 24;        /* Proportional width */
-}
-
-.row-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.text-container {
-    flex: 76;        /* Proportional width */
-    font-size: 3.9vw;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #0d5988;
-}
-
-.count-plus {
-    font-weight: 700;
-}
-
 .header-hero {
     text-align: center;
     font-size: 5vw;
@@ -75,7 +41,7 @@
     font-weight: 700;
     font-style: normal;
     color: #0d5988;
-    margin-top: -60px;
+    margin-top: 35px;
 }
 
 .subheader-hero {
@@ -121,5 +87,5 @@
     height: auto;
     object-fit: cover;
     z-index: -1;
-    margin-top: 410px;
+    margin-top: 360px;
 }
